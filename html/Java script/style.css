@@ -1,0 +1,13 @@
+#header{
+	background-color: green;
+	margin: 20px;
+	padding:20px;
+	border-bottom: 7px;
+	color:white;
+	text-align:center;
+}
+/* La body ko part hai ta yo*/
+
+body{
+	background-color: grey;
+}
