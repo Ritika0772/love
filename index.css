@@ -1,0 +1,544 @@
+* {
+    margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* For all the heading 4 in thhe html file */
+
+.main-container h4 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+
+/* For the alert section */
+
+.alert {
+    background-color: #cce5ff;
+    color: black;
+    border-color: #b8daff;
+    position: relative;
+    border-radius: .25rem;
+    padding: 10px;
+}
+
+
+/* For the buttons section */
+
+.button-section button {
+    text-decoration: none;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    font-weight: 400;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+
+/* designing of the individual buttons of button section */
+
+.a1 {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.a2 {
+    color: white;
+    background-color: gray;
+    border-color: gray;
+}
+
+.a3 {
+    color: white;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.a4 {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.a5 {
+    color: white;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.a6 {
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.a7 {
+    color: black;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.a8 {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+
+/* For the button outline section */
+
+.button-outline button {
+    text-decoration: none;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    font-weight: 400;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+
+/* designing of the individual buttons of button outline section */
+
+.b1 {
+    color: #007bff;
+    background-color: white;
+    border-color: #007bff;
+}
+
+.b1:hover {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.b2 {
+    color: gray;
+    background-color: white;
+    border-color: gray;
+}
+
+.b2:hover {
+    color: white;
+    background-color: gray;
+    border-color: gray;
+}
+
+.b3 {
+    color: #28a745;
+    background-color: white;
+    border-color: #28a745;
+}
+
+.b3:hover {
+    color: white;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.b4 {
+    color: #dc3545;
+    background-color: white;
+    border-color: #dc3545;
+}
+
+.b4:hover {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.b5 {
+    color: #ffc107;
+    background-color: white;
+    border-color: #ffc107;
+}
+
+.b5:hover {
+    color: white;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.b6 {
+    color: #17a2b8;
+    background-color: white;
+    border-color: #17a2b8;
+}
+
+.b6:hover {
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.b7 {
+    color: #f8f9fa;
+    background-color: white;
+    border-color: #f8f9fa;
+}
+
+.b7:hover {
+    color: black;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.b8 {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+.b8:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+
+/* Buttons Size Section */
+
+
+/* For BIGGER  buttons */
+
+.l1 {
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    border-radius: .25rem;
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.l1:hover {
+    background-color: hsl(236, 100%, 50%);
+    border-color: hsl(236, 100%, 50%);
+}
+
+.l2 {
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    border-radius: .25rem;
+    color: white;
+    background-color: gray;
+    border-color: gray;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.l2:hover {
+    background-color: #353535;
+    border-color: #353535;
+}
+
+
+/* For SMALLER buttons */
+
+.l3 {
+    text-decoration: none;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    margin-top: .25rem;
+    border-radius: .25rem;
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.l3:hover {
+    background-color: hsl(236, 100%, 50%);
+    border-color: hsl(236, 100%, 50%);
+}
+
+.l4 {
+    text-decoration: none;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    margin-top: .25rem;
+    border-radius: .25rem;
+    color: white;
+    background-color: gray;
+    border-color: gray;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.l4:hover {
+    background-color: #353535;
+    border-color: #353535;
+}
+
+
+/* Buttons Block */
+
+
+/* Button block background */
+
+.button-block {
+    background-color: #d3d3d3;
+    height: 130px;
+}
+
+
+/* Main button block area */
+
+.c1 {
+    margin-top: 20px;
+    width: 1300px;
+    height: 40px;
+    border-radius: .25rem;
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.c1:hover {
+    background-color: hsl(236, 100%, 50%);
+    border-color: hsl(236, 100%, 50%);
+}
+
+.c2 {
+    margin-top: 10px;
+    width: 1300px;
+    height: 40px;
+    border-radius: .25rem;
+    color: white;
+    background-color: grey;
+    border-color: grey;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.c2:hover {
+    background-color: #353535;
+    border-color: #353535;
+}
+
+
+/* For the cards section*/
+
+.cards {
+    width: 382px;
+    border: 1px solid #4d4d4d;
+}
+
+
+/* Blank section */
+
+.blank {
+    height: 286px;
+    width: 382px;
+    color: #ffffffa6;
+    background-color: black;
+    margin-left: -0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Below blank section of cards section */
+
+.text {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.text h5 {
+    font-size: larger;
+}
+
+.card-text {
+    margin-top: -10px;
+}
+
+.d1 {
+    text-decoration: none;
+    margin-right: .25rem;
+    margin-top: .25rem;
+    border-radius: .25rem;
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.d1:hover {
+    background-color: hsl(236, 100%, 50%);
+    border-color: hsl(236, 100%, 50%);
+}
+
+
+/* Feature cards sections */
+
+
+/* Card Header */
+
+.card-header {
+    text-decoration: none;
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding: 12px 20px;
+    height: 30px;
+}
+
+
+/* Card body */
+
+.card-body {
+    text-decoration: none;
+    border: 1px solid;
+    border-top: 0px;
+    padding: 30px;
+    color: black;
+}
+
+
+/* Heading 5 of feature card */
+
+.card-title h5 {
+    margin-left: -2px;
+    font-size: larger;
+}
+
+
+/* Button of feature card */
+
+.e1 {
+    text-decoration: none;
+    margin-right: .25rem;
+    margin-top: .25rem;
+    border-radius: .25rem;
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.e1:hover {
+    background-color: hsl(236, 100%, 50%);
+    border-color: hsl(236, 100%, 50%);
+}
+
+
+/* Login Form */
+
+.form-group {
+    margin-left: -15px;
+}
+
+
+/* For email section */
+
+#email {
+    height: 25px;
+    width: 1350px;
+    padding: 5px;
+}
+
+
+/* For password */
+
+#password {
+    height: 25px;
+    width: 1350px;
+    padding: 5px;
+}
+
+
+/* Check me out section */
+
+.form-check {
+    padding: 5px;
+    font-size: smaller;
+}
+
+.submit button {
+    text-decoration: none;
+    margin-top: .25rem;
+    border-radius: .25rem;
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    background-color: hsl(236, 100%, 50%);
+    border-color: hsl(236, 100%, 50%);
+}
+
+
+/* For Forms Size */
+
+.f1 {
+    height: 25px;
+    width: 1330px;
+    padding: 15px;
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid black;
+    font-size: larger;
+    border-radius: .25rem;
+}
+
+.f2 {
+    height: 25px;
+    width: 1340px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: medium;
+    border-radius: .25rem;
+}
+
+.f3 {
+    height: 25px;
+    width: 1350px;
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid black;
+    font-size: small;
+    border-radius: .25rem;
+}
+
+
+/* THANK YOU */
